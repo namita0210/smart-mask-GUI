@@ -1,0 +1,9 @@
+When a Tkinter program runs, it runs a mainloop (an infinite loop)
+which is responsible for running a GUI program. 
+At a time only one instance of mainloop can be active,
+so in order to open a new window we have to use a widget,
+"Toplevel".
+
+A Toplevel widget works pretty much like a Frame,
+but it opens in a separate top-level window,
+such windows have all the properties that a main window (root/master window) should have.
